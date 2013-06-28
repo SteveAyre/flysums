@@ -1,0 +1,15 @@
+Source: flysums
+Section: utils
+Priority: optional
+Maintainer: Steven Ayre <steveayre@gmail.com>
+Build-Depends: debhelper (>= 9), libssl-dev
+Standards-Version: 3.9.3
+Homepage: https://github.com/SteveAyre/flysums
+Vcs-Browser: https://github.com/SteveAyre/flysums
+Vcs-Git: git://github.com/SteveAyre/flysums.git
+
+Package: flysums
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Utility for calculating hash digest of piped data on the fly
+
