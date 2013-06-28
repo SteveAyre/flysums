@@ -56,6 +56,7 @@ int main(int argc, char *argv[])
 		fprintf(stderr, "\t-f FILENAME  Name of the file to save to SUMS_FILE (optional)\n");
 		fprintf(stderr, "\t-a ALGORITHM Algorithm to use (default '%s')\n", DEFAULT_ALGORITHM);
 		fprintf(stderr, "\t-h           This help message\n");
+		fprintf(stderr, "\n");
 		return -1;
 	}
 	sums_filename = argv[optind];
